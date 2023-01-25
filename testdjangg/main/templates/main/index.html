@@ -1,0 +1,91 @@
+{% load static %}
+
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link href="{% static 'main/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'main/css/styles.css' %}">
+
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <div  class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src = "{% static 'main/img/logo.svg' %}" class="bi me-2" width="60" height="60">
+                <span class="fs-4">Аналитика профессии UX/UI дизайнер</span>
+            </div>
+        </header>
+    </div>
+
+
+
+    <div class="block">
+
+
+        <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+            <a href="" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+                <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                <span class="fs-5 fw-semibold ">Главная страница</span>
+            </a>
+            <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                    <a href="demand" class="btn btn-outline-secondary btn-group-sm px-1">Востребованность</a>
+                </li>
+
+                <li class="mb-1">
+                    <a href="page2.html" class="btn btn-outline-secondary btn-group-sm px-1">География</a>
+                </li>
+
+                <li class="mb-1">
+                    <a href="page2.html" class="btn btn-outline-secondary btn-group-sm px-1">Навыки</a>
+                </li>
+
+                <li class="mb-1">
+                    <a href="page2.html" class="btn btn-outline-secondary btn-group-sm px-1">Последние вакансии</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container my-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1">UX/UI Дизайнер</h1>
+                    <p class="lead">UX/UI-дизайн — это проектирование удобных, понятных и эстетичных пользовательских интерфейсов. Чтобы разобраться, какие задачи решает специалист в этой сфере, нужно понять, что такое UX и UI.
+
+                        UX — user experience — переводится на русский язык как «пользовательский опыт». Это понятие включает в себя навигацию по сайту или приложению, состав функций внутри цифрового продукта, понятный текст.
+
+                        UX-дизайнер — специалист, задача которого сделать продукт удобным, понятным и логичным для всех пользователей. От его работы зависит, сможет ли клиент быстро и удобно получить желаемую услугу. Перед запуском продукта он всегда совершает большую подготовительную работу: проводит аудит конкурентов, опрашивает пользователей, изучает целевую аудиторию сайта или приложения.
+
+                        UI — user interface — это пользовательский интерфейс: наполнение сайта, систематизация элементов, выбор цветов, построение визуальной композиции, оформление кнопок, колонок и других графических элементов. Всем этим занимается UI-дизайнер.</p>
+
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                    <img class="rounded-lg-3" src="{% static 'main/img/oblozhka.png' %}" alt="" width="431">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class = "footer">
+        <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-muted">&copy; Волчатников Сергей Игоревич РИ-210930</span>
+            </div>
+
+
+        </footer>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
